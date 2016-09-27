@@ -13,9 +13,8 @@ p{
 
 
 body{
-  width:90%;
-  max-width: 960px;
-  margin: auto;
+  max-width: 60em;
+  margin: 0 auto;
  /*  background-color: peachpuff; */
 }
 
@@ -82,14 +81,18 @@ font-family:fantasy;
  }
 
 
+title{
+ text-align: center;
+}
 
-
+/*
 section.haiku{
 
  padding: 24px 100px 24px 24px;
  border: 10px double black;
  margin: 24px 24px 24px 100px;
 }
+ */
 
 section.haiku{
  font-size:24px;
@@ -104,11 +107,13 @@ section.haiku{
  text-align:center;
  }
 
+/*
  p.haiku{
  padding: 24px 100px 24px 24px;
  border: 15px dotted black;
  margin: 24px 24px 24px 100px;
  }
+ */
 
 p.haiku{
  text-align:center;
@@ -118,11 +123,13 @@ p.haiku{
   font-size: 36px;
 }
 
+/*
 p.h{
  padding: 24px 100px 24px 24px;
  border: 15px double black;
  margin: 24px 24px 24px 100px;
 }
+ */
 
 p.h{
  text-align:center;
@@ -138,10 +145,12 @@ ul {
     width: 960px;
 }
 
+/*
 li a {
     display: block;
     padding: 8px 16px;
     text-decoration: none;
+ */
 }
 
 p.body{
@@ -150,12 +159,14 @@ p.body{
 }
 
 
+/*
 p.a{
  padding: 5px 5px 1px 1px;
  border: 5px dotted black;
  margin: 2px 2px 2px 2px;
  text-align: center;
 }
+ */
 
 
 
@@ -205,6 +216,28 @@ a{
   color: purple;
   text-decoration: none;
 }
+
+
+/*
+nav,
+ol,
+li{
+ border: 1px solid #000;
+ max-width: 300px;
+ padding-left: 1em;
+ margin-left: 1em;
+}
+ */
+ nav ol{
+ padding-left: 0;
+ }
+
+nav li {
+  display: inline;
+  margin-right: 1em; /* 1em =16px*/
+}
+
+
 
 	</style>
 
