@@ -13,7 +13,8 @@ p{
 
 
 body{
-  max-width: 60em;
+  width:90%;
+  max-width: 90em;
   margin: 0 auto;
  /*  background-color: peachpuff; */
 }
@@ -110,10 +111,11 @@ section.haiku{
 /*
  p.haiku{
  padding: 24px 100px 24px 24px;
- border: 15px dotted black;
- margin: 24px 24px 24px 100px;
+ border: 15px dotted gray;
+ margin: 24px 24px 24px 24px;
  }
  */
+
 
 p.haiku{
  text-align:center;
@@ -123,13 +125,12 @@ p.haiku{
   font-size: 36px;
 }
 
-/*
-p.h{
- padding: 24px 100px 24px 24px;
- border: 15px double black;
- margin: 24px 24px 24px 100px;
+
+header{
+ padding: 24px24px 24px 24px;
+ border: 15px double gray;
+ margin: 24px 24px 24px 24px;
 }
- */
 
 p.h{
  text-align:center;
@@ -138,6 +139,7 @@ p.h{
 p.h{
  font-size: 36px
 }
+
 ul {
     list-style-type: none;
     margin: 0;
@@ -145,35 +147,32 @@ ul {
     width: 960px;
 }
 
-/*
 li a {
     display: block;
     padding: 8px 16px;
     text-decoration: none;
- */
+
 }
 
 p.body{
-
  margin: 5px 5px 5px 5px;
 }
 
 
-/*
 p.a{
  padding: 5px 5px 1px 1px;
- border: 5px dotted black;
+ border: 5px solid grey;
  margin: 2px 2px 2px 2px;
  text-align: center;
 }
- */
+
 
 
 
 h1.body{
   text-align:center;
   text-align:center;
- text-indent: 2em;
+  text-indent: 2em;
   line-height: 2;
   margin:0
 }
@@ -182,8 +181,8 @@ h1.body{
 h2.body{
  text-align:center;
  text-indent: 2em;
-  line-height: 2;
-  margin:0;
+ line-height: 2;
+ margin:0;
  }
 
 
@@ -217,8 +216,8 @@ a{
   text-decoration: none;
 }
 
-
 /*
+
 nav,
 ol,
 li{
@@ -228,14 +227,58 @@ li{
  margin-left: 1em;
 }
  */
+
+
  nav ol{
  padding-left: 0;
+ text-align:center;
  }
 
 nav li {
   display: inline;
   margin-right: 1em; /* 1em =16px*/
+  text-align:center;
 }
+
+header{
+ text-align:center;
+}
+
+header{
+ font-size: 36px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    background-color: #f1f1f1;
+}
+
+li a {
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+/* Change the link color on hover */
+li a:hover {
+    background-color: #555;
+    color: white;
+}
+
+/*
+body{
+ color: hsla(4, 68%, 56%, 0.5);
+ }
+ */
+
+p{
+ margin: 50px 50px 50px 50px
+}
+
 
 
 
