@@ -1,0 +1,291 @@
+/*HTML Reset (normalize)*/
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p{
+ margin-top:0;
+ margin-bottom:0;
+}
+
+
+body{
+  width:90%;
+  max-width: 90em;
+  margin: 0 auto;
+ /*  background-color: peachpuff; */
+}
+
+/*
+p{
+ font-family: fantasy, cursive, monospace, sans-serif, serif;
+}
+ */
+
+
+
+.serif{
+ font-family: Georgia, "Times New Roman", Times, serif;
+ }
+
+.sans-serif{
+ font-family: "Trebuchet MS",Verdana, Arial, sans-serif;
+ }
+
+.monospace{
+ font-family: "Courier New", Courier, monospace;
+ }
+
+p.monospace{
+  font: italic bold 36px/1 Courier, monospace;
+  letter-spacing: -2px;
+  word-spacing: -15px;
+ }
+
+.cursive{
+ font-family: "Comic Sans MS", cursive;
+ }
+
+.fantasy{
+font-family:fantasy;
+}
+
+
+.size-72px {
+ font-size: 72px;
+}
+
+.size-52px{
+ font-size: 52px;
+}
+
+.bold{
+ font-weight: bold;
+}
+
+.italic{
+ font-style: italic;
+}
+
+/*
+.small-caps{
+ font-variant: small-caps;
+ }
+ */
+
+ .all-caps{
+  font-size: 90%;
+  text-transform: uppercase;
+ }
+
+
+title{
+ text-align: center;
+}
+
+/*
+section.haiku{
+
+ padding: 24px 100px 24px 24px;
+ border: 10px double black;
+ margin: 24px 24px 24px 100px;
+}
+ */
+
+section.haiku{
+ font-size:24px;
+ line-height: 1.5;
+}
+
+section.haiku{
+ font-size:24px;
+}
+
+section.haiku{
+ text-align:center;
+ }
+
+/*
+ p.haiku{
+ padding: 24px 100px 24px 24px;
+ border: 15px dotted gray;
+ margin: 24px 24px 24px 24px;
+ }
+ */
+
+
+p.haiku{
+ text-align:center;
+}
+
+p.haiku{
+  font-size: 36px;
+}
+
+
+header{
+ padding: 24px24px 24px 24px;
+ border: 15px double gray;
+ margin: 24px 24px 24px 24px;
+}
+
+p.h{
+ text-align:center;
+}
+
+p.h{
+ font-size: 36px
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 960px;
+}
+
+li a {
+    display: block;
+    padding: 8px 16px;
+    text-decoration: none;
+
+}
+
+p.body{
+ margin: 5px 5px 5px 5px;
+}
+
+
+p.a{
+ padding: 5px 5px 1px 1px;
+ border: 5px solid grey;
+ margin: 2px 2px 2px 2px;
+ text-align: center;
+}
+
+
+
+
+h1.body{
+  text-align:center;
+  text-align:center;
+  text-indent: 2em;
+  line-height: 2;
+  margin:0
+}
+
+
+h2.body{
+ text-align:center;
+ text-indent: 2em;
+ line-height: 2;
+ margin:0;
+ }
+
+
+h4.body{
+  text-align:center;
+  text-indent: 2em;
+  line-height: 2;
+  margin:0;
+}
+
+del{
+	 display:none;
+}
+
+
+
+#notes p{
+    text-indent: 0;
+}
+
+
+p{
+  text-indent: 2em;
+  line-height: 2;
+  margin:0;
+  }
+
+
+a{
+  color: purple;
+  text-decoration: none;
+}
+
+/*
+
+nav,
+ol,
+li{
+ border: 1px solid #000;
+ max-width: 300px;
+ padding-left: 1em;
+ margin-left: 1em;
+}
+ */
+
+
+ nav ol{
+ padding-left: 0;
+ text-align:center;
+ }
+
+nav li {
+  display: inline;
+  margin-right: 1em; /* 1em =16px*/
+  text-align:center;
+}
+
+header{
+ text-align:center;
+}
+
+header{
+ font-size: 36px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    background-color: #f1f1f1;
+}
+
+li a {
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+/* Change the link color on hover */
+li a:hover {
+    background-color: #555;
+    color: white;
+}
+
+/*
+body{
+ color: hsla(4, 68%, 56%, 0.5);
+ }
+ */
+
+p{
+ margin: 50px 50px 50px 50px
+}
+
+
+
+
+	</style>
+
+
+
+
+
+
