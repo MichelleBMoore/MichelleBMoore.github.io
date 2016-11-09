@@ -1,0 +1,186 @@
+body{
+background: #333;
+}
+
+
+/*candy corn*/
+
+#candy-corn{
+position: relative;
+ font-size: 300%;
+ width: 8em;
+/*border: 1px dashed #000;*/
+
+ margin: 1em auto;
+}
+
+#candy-corn .corn {
+width: 0;
+height: 0;
+line-height: 0;
+border: 4em dashed transparent;
+border-top: 0;
+border-bottom: 8em solid #f90;
+border-radius: .5em;
+}
+
+#candy-corn .top-stripe {
+position: absolute;
+top:0;
+right:0;
+left:0;
+width: 0;
+height: 0;
+line-height: 0;
+border: 1em dashed transparent;
+border-top: 0;
+border-bottom: 2em solid #fff;
+border-radius: .5em;
+margin: 0 auto;
+}
+
+
+#candy-corn .bottom-stripe {
+position: absolute;
+right:0;
+bottom:0;
+left:0;
+width: 6em;
+height: 0;
+line-height: 0;
+border: 1em dashed transparent;
+border-top: 0;
+border-bottom: 2em solid #ff0;
+border-radius: .5em;
+margin: 0 auto;
+}
+
+@media (min-width: 60em){
+
+#candy-corn{
+display: none;
+}
+
+}
+
+
+/*ghost*/
+
+.ghost-1{
+	position: relative;
+ font-size: 300%;
+ width: 4em;
+ !border: 1px dashed #fff;
+ overflow: hidden;
+ margin: 1em auto;
+}
+
+.head{
+position: relative;
+font-size: 100%;
+width:4em;
+height:4em;
+background:#fff;
+border-radius: 50%;
+}
+
+.eye-1{
+float: left;
+font-size: 25%;
+width:4em;
+height:4em;
+background:#0f0;
+border-radius: 50%;
+margin-top: 3em;
+margin-left: 3em;
+}
+
+.eye-2{
+float: right;
+font-size: 25%;
+width:4em;
+height:4em;
+background:#0f0;
+border-radius: 50%;
+margin-top: 3em;
+margin-right: 3em;
+}
+
+
+.mouth{
+position: relative;
+top: 1em;
+font-size: 50%;
+width:2em;
+height:3.5em;
+background:#f00;
+border-radius: 50%;
+clear: both;
+margin: 0 auto;
+}
+
+.body{
+font-size: 100%;
+width:4em;
+height:4em;
+background:#fff;
+margin-top: -2em;
+}
+
+.ghost-1 .body .bottom {
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	}
+
+.ghost-1 .body .tri {
+	float: left;
+	width: 0;
+	height: 0;
+	line-height: 0;
+	border: .5em dashed transparent;
+	border-top: 0;
+	border-bottom: .5em solid #333;
+	}
+
+
+
+
+
+
+
+
+
+/*square circle triangle demo*/
+
+
+
+#square-1{
+float: left;
+font-size: 200%;
+width:4em;
+height:4em;
+background:#f00;
+}
+
+
+#circle-1{
+float: left;
+font-size: 200%;
+width:4em;
+height:4em;
+background:#0f0;
+border-radius: 50%;
+margin-left: .25em;
+}
+
+#triangle-1{
+float: left;
+font-size: 200%;
+width: 0;
+height: 0;
+line-height: 0;
+border: 2em dashed transparent;
+border-top: 0;
+border-bottom: 4em solid #00f;
+}
