@@ -1,0 +1,372 @@
+body{
+  font-family: "Courier New"
+}
+
+
+img{
+  max-width: 100%;
+  height:auto;
+}
+
+.h1-center{
+ text-align: center;
+}
+
+
+.size-24px{
+  font-size: 24px;
+}
+
+.size-45px{
+  font-size: 42px;
+}
+
+
+.size-60px{
+ font-size: 60px;
+}
+
+.size-72px{
+font-size: 72px;
+}
+
+.size-84px{
+font-size: 84px;
+}
+
+
+h1{
+  font-size:60px;
+}
+
+.c-color{
+  color: #fad;
+}
+.n-color{
+  color: #fad;
+}
+
+
+nav{
+  margin-bottom: 3em;
+}
+
+#font-nav li,
+a{
+  color:#fff;
+}
+
+#font-nav ol{
+  max-width:99%;
+  background: #abe;
+  overflow: hidden;
+}
+
+#font-nav li {
+   font-weight: bold;
+}
+
+#font-nav a {
+  max-width:99%;
+  display: block;
+  font-weight: normal;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  text-decoration: none;
+}
+
+#font-nav a:hover{
+  background: #fad;
+  padding-left: 3em;
+  margin-left: -3em;
+}
+
+.p-abc{
+ font-size: 60px;
+ text-align: center;
+ margin: 0 0 1em 0;
+}
+
+
+.letter-center{
+  width: 99%;
+  max-width: 48em;
+  !background: #fcc;
+  margin: 0 auto;
+}
+
+.letters{
+  text-align: center;
+  list-style:none;
+  font-size: 2em;
+  padding-left: 0;
+  margin: 0;
+}
+
+
+
+.section-center{
+  width: 90%;
+  max-width: 48em;
+  !background: #f00;
+  margin: 0 auto;
+}
+
+#numbers{
+  color:#fff;
+  text-align: center;
+  background: #abe;
+  padding: 1em;
+}
+
+#numbers{
+  font-size: 45px;
+  text-align: center;
+  padding: 1em 1.5em 1em 1.5em;
+  margin-top:1em;
+  margin-bottom: 1.6em;
+  background: #abe
+}
+
+#special{
+  font-size:60px;
+  text-align: center;
+  margin: .5em 1em;
+}
+
+#history{
+  text-align:center;
+  font-size: 15px;
+  margin: 1em;
+  padding: 1em 0;
+  border-top: 2px solid #abe;
+  border-bottom: 2px solid #abe;
+}
+
+.font-history{
+  margin:  3em;
+  line-height: 1.4em;
+}
+
+p.drop-cap:first-letter{
+  color: #fad;
+  float: left;
+  font-size: 6em;
+	font-weight: bold;
+	line-height: .7;
+	background: #fff;
+	padding: .1em;
+	border: 7px double #abe;
+	margin: .05em .15em 0 0;
+}
+
+.edit-me{
+  display: block;
+  color:#333;
+  margin:-1em 0 1em 0;
+
+}
+
+
+#styles-weights h2{
+  width: 75%;
+  font-size: .8em;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  padding: 1em 0;
+  border-top: 2px solid #fff;
+  border-bottom: 2px solid #fff;
+  margin: 0 auto 3em;
+}
+
+
+#styles-weights h2 span{
+  font-size: 1.5em;
+  font-style: italic;
+  font-weight: normal;
+  line-height: 1;
+  vertical-align: middle;
+}
+
+#styles-weights {
+  color:#fff;
+  text-align: center;
+  background: #abe;
+  padding: 1em;
+}
+
+#styles-weights ul{
+  list-style:none;
+  font-size: 2em;
+  padding-left: 0;
+  margin: 0;
+}
+
+#styles-weights li{
+ margin: 1.5em;
+}
+
+
+#styles-weights img{
+  /*display:block;*/
+  width:20%;
+}
+
+
+#make{
+  margin-top:2em;
+}
+
+
+/*
+nav.inline ul{
+  text-align: center;
+  margin:0;
+}
+
+nav.inline li{
+  display: inline;
+  margin-right: -.25em;
+}
+
+
+nav.inline a{
+  display:inline-block;
+  color: white;
+  background: #000;
+  padding: 1em;
+}
+
+nav.inline a:hover{
+  background: #666;
+}*/
+
+
+#make h2{
+  text-align:center;
+  font-size: 20px;
+  margin: 3em 1em 2em;
+  padding: 1em 0;
+  border-top: 2px solid #abe;
+  border-bottom: 2px solid #abe;
+}
+
+#make li{
+  text-align: center;
+  display: block;
+  font-size: 20px;
+  margin-right: 2em;
+  margin-bottom: 2em;
+}
+
+
+#source{
+  color:#fff;
+  background: #abe;
+  padding: 1em 0;
+}
+
+#sources li{
+max-width: 90%;
+}
+
+
+#sources a:hover{
+  background: #fad;
+  padding-left: 3em;
+  margin-left: -3em;
+}
+
+h4{
+  width: 75%;
+  text-align: center;
+  font-size: .8em;
+  letter-spacing: 1px;
+  padding: 1em 0;
+  border-top: 2px solid #fff;
+  border-bottom: 2px solid #fff;
+  margin: 0 auto 3em;
+}
+
+img{
+margin: 2em 0 3em;
+}
+
+
+.font-quote{
+  font-size: 24px;
+  line-height: 1.3em;
+  margin: 1.5em;
+  margin-top: 3em;
+}
+
+.img-center {
+text-align: center;
+}
+
+
+/*breakpoints*/
+
+@media (min-width: 60em) {
+
+  .h1-center{
+    font-size: 6em;
+    margin: 2em 1em;
+  }
+
+
+  .p-abc{
+    font-size: 7em;
+    margin: 2em 1em;
+
+  }
+
+  #numbers{
+    font-size: 5em;
+    padding: 3em;
+  }
+
+  #special{
+    font-size: 5em;
+    margin: 3em 1em;
+  }
+
+  .img-center{
+    margin: 2em;
+  }
+
+
+  #history{
+    font-size: 2em;
+  }
+
+  .font-history{
+   font-size: 2em;
+  }
+
+  .font-facts{
+    margin: 5em 0;
+    padding-top: 1.5em;
+    padding-bottom: 1em;
+  }
+
+  #styles-weights{
+    margin: 2em 0;
+    padding-top: 4em;
+    padding-bottom: 4em;
+  }
+
+  .font-quote{
+    font-size: 3em;
+    text-align: center;
+    margin: 1em;
+    padding: 3em;
+
+  }
+
+  #make{
+    font-size: 3em;
+    margin-bottom: 3em;
+  }
+
+}
