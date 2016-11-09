@@ -1,0 +1,43 @@
+/* max-width breakpoint/ doesn't get any wider*/
+
+body{
+max-width: 60em;
+margin: 0 auto;
+}
+
+p{
+font: 1.2em/1.5 Georgia, serif;
+}
+
+/*column breakpoint*/
+
+@media (min-width: 48em) {
+
+
+h1{
+ font-size: 4em;
+}
+
+}
+
+
+
+@media (min-width: 60em) {
+
+.columns .col {
+   float: left;
+   width: 50%;
+   }
+
+.columns .col p {
+  font-size: 1.4em;
+}
+
+}
+
+
+
+
+
+
+
