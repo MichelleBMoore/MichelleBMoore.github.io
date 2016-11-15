@@ -1,0 +1,363 @@
+body{
+background: #333;
+}
+
+/* f i s h  b o w l */
+
+#fish-bowl{
+position: relative;
+float: left;
+font-size: 900%;
+width:4em;
+height:4em;
+background:#0ac;
+border-radius: 50%;
+margin-left: .25em;
+}
+
+
+/* f i s h   1 */
+
+.fish-1{
+position:relative;
+font-size: 40%;
+width:5em;
+height:4em;
+background:#9ff;
+border-radius: 50%;
+margin-left: 3em;
+margin-top: 3em;
+}
+
+.eye{
+position: absolute;
+font-size: 20%;
+width:4em;
+height:4em;
+background:#000;
+border-radius: 50%;
+margin-left: 5em;
+margin-top: 4em
+}
+
+
+.jaw-1{
+position: absolute;
+font-size: 40%;
+width:9em;
+height:5em;
+background:#9ff;
+margin-left: -3em;
+margin-top: 5em;
+}
+
+
+.fin-1{
+position: absolute;
+font-size: 30%;
+width: 0;
+height: 0;
+line-height: 0;
+border: 2em dashed transparent;
+border-top: 0;
+border-right: 4em solid #0ff;
+margin-top: 6em;
+margin-left: 6em;
+}
+
+.top-fin{
+position: absolute;
+font-size: 30%;
+width: 0;
+height: 0;
+line-height: 0;
+border: 2em dashed transparent;
+border-top: 0;
+border-bottom: 4em solid #0ff;
+margin-top: -3.5em;
+  margin-left: 6em;
+}
+
+.back-fin{
+  position: absolute;
+font-size: 60%;
+width: 0;
+height: 0;
+line-height: 0;
+border: 2em dashed transparent;
+border-top: 0;
+border-bottom: 5em solid #0ff;
+margin-left: 7em;
+}
+
+
+/*   f  i s h   2  */
+
+.fish-2{
+position:relative;
+font-size: 10%;
+width:8em;
+height:4em;
+background:#afa;
+border-radius: 50%;
+margin-top: 2em;
+margin-left: 6.5em;
+clear:both;
+}
+
+.eye-1{
+position: absolute;
+font-size: 20%;
+width:4em;
+height:4em;
+background:#000;
+border-radius: 50%;
+margin-left: 1em;
+margin-top: 1em;
+}
+
+
+.back-fin-1{
+font-size: 10%;
+width: 0;
+height: 0;
+line-height: 0;
+border: 2em dashed transparent;
+border-top: 0;
+border-bottom: 4em solid #afa;
+margin-left: 11em;
+margin-top:4em;
+
+}
+
+/* f i s h */
+.fish-3{
+position:relative;
+font-size: 10%;
+width:8em;
+height:4em;
+background:#09e;
+border-radius: 50%;
+margin-top: 2em;
+margin-left: 25em;
+clear:both;
+}
+
+.eye-2{
+position: absolute;
+font-size: 20%;
+width:4em;
+height:4em;
+background:#000;
+border-radius: 50%;
+margin-left: 1em;
+margin-top: 1em;
+}
+
+
+.back-fin-2{
+font-size: 10%;
+width: 0;
+height: 0;
+line-height: 0;
+border: 2em dashed transparent;
+border-top: 0;
+border-bottom: 4em solid #09e;
+margin-left: 11em;
+margin-top:4em;
+
+}
+
+
+
+
+
+
+
+/* fish  4*/
+
+.fish-4{
+position:relative;
+font-size: 10%;
+width:8em;
+height:4em;
+background:#09e;
+border-radius: 50%;
+margin-top: -37em;
+margin-left: 6em;
+
+clear:both;
+}
+
+.eye-3{
+position: absolute;
+font-size: 20%;
+width:4em;
+height:4em;
+background:#000;
+border-radius: 50%;
+margin-left: 1em;
+margin-top: 1em;
+}
+
+
+.back-fin-3{
+font-size: 10%;
+width: 0;
+height: 0;
+line-height: 0;
+border: 2em dashed transparent;
+border-top: 0;
+border-bottom: 4em solid #09e;
+margin-left: 11em;
+margin-top:4em;
+
+}
+
+
+
+
+
+
+/* f i s h  5 */
+
+
+
+.fish-5{
+position:relative;
+font-size: 20%;
+width:5em;
+height:4em;
+background:#9ff;
+border-radius: 50%;
+margin-left: 11em;
+margin-top: 8em;
+}
+
+.eye-4{
+position: absolute;
+font-size: 20%;
+width:4em;
+height:4em;
+background:#000;
+border-radius: 50%;
+margin-left: 5em;
+margin-top: 4em
+}
+
+
+.jaw-4{
+position: absolute;
+font-size: 40%;
+width:6.5em;
+height:4em;
+background:#9ff;
+margin-left: -3em;
+margin-top: 5em;
+}
+
+
+.fin-3{
+position: absolute;
+font-size: 30%;
+width: 0;
+height: 0;
+line-height: 0;
+border: 2em dashed transparent;
+border-top: 0;
+border-right: 4em solid #0ff;
+margin-top: 7em;
+margin-left: 8em;
+}
+
+.top-fin-2{
+position: absolute;
+font-size: 30%;
+width: 0;
+height: 0;
+line-height: 0;
+border: 2em dashed transparent;
+border-top: 0;
+border-bottom: 4em solid #0ff;
+margin-top: -3.5em;
+  margin-left: 6em;
+}
+
+.back-fin-4{
+  position: absolute;
+font-size: 60%;
+width: 0;
+height: 0;
+line-height: 0;
+border: 2em dashed transparent;
+border-top: 0;
+border-bottom: 5em solid #0ff;
+margin-left: 7.5em;
+  margin-top:
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*square circle triangle demo*/
+
+
+
+#square-1{
+float: left;
+font-size: 200%;
+width:4em;
+height:4em;
+background:#f00;
+}
+
+
+#circle-1{
+float: left;
+font-size: 200%;
+width:4em;
+height:4em;
+background:#0f0;
+border-radius: 50%;
+margin-left: .25em;
+}
+
+#triangle-1{
+float: left;
+font-size: 200%;
+width: 0;
+height: 0;
+line-height: 0;
+border: 2em dashed transparent;
+border-top: 0;
+border-bottom: 4em solid #00f;
+}
+
