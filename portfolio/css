@@ -1,0 +1,393 @@
+body{
+	max-width: 60em;
+  font-family: "Trebuchet MS";
+  margin: 0 auto;
+
+}
+
+.h1-center{
+ text-align: center;
+}
+
+
+.size-20px{
+  font-size: 20px;
+}
+
+.size-24px{
+  font-size: 24px;
+}
+
+.size-36px{
+ font-size: 36px;
+}
+
+.size-45px{
+  font-size: 42px;
+}
+
+.size-60px{
+ font-size: 60px;
+}
+
+.size-72px{
+font-size: 72px;
+}
+
+.size-84px{
+font-size: 84px;
+}
+
+/*
+#monstertop{
+position: absolute;
+margin-top: -4em;
+max-width: 40em;
+}
+
+#monsterbottom{
+position: absolute;
+margin-top:-19em;
+max-width: 40em;
+}
+ */
+
+/*#hi{
+background: #abe;
+margin: 2em;
+padding: 2em;
+margin-left: 1.5em;
+}*/
+/*
+
+#name{
+font-size:72px;
+margin-left: -.5em;
+background: #fff;
+padding: 2em;
+}
+
+#skill{
+text-align: center;
+font-size: 36px;
+margin-top: -5em;
+margin-left: .6em;
+}
+
+
+span{
+margin-left: .5em;
+}
+ */
+
+
+
+                                                    /* First Page*/
+
+
+
+/*
+iframe{
+height: 560;
+width: 315;
+/*
+height:  15em;
+max-width: 30em;
+ */
+
+p.drop-cap:first-letter{
+  color: #add;
+  float: left;
+  font-size: 4em;
+	font-weight: bold;
+	line-height: .8;
+	background: #fff;
+	padding: .1em;
+	border: 8px double #aff;
+	margin: .05em .15em 0 0;
+	}
+
+
+
+
+#bio{
+	margin-top: 6em;
+  margin-bottom: 4em;
+}
+
+.plants{
+ margin-top:-9em;
+}
+
+.me{
+float: left;
+margin-bottom: 4em;
+}
+
+
+#contact{
+ text-align: center;
+}
+
+
+
+                                                      /*navigation*/
+
+
+#content ol{
+text-decoration: none
+}
+
+nav{
+  margin-bottom: 3em;
+}
+
+#content li,
+a{
+  color:#000;
+  list-style: none;
+}
+
+#content ol{
+  max-width:99%;
+  background: #dff;
+  overflow: hidden;
+}
+
+#content li {
+   font-weight: bold;
+}
+
+#content a {
+  max-width:99%;
+  display: block;
+  font-weight: normal;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  text-decoration: none;
+}
+
+#content a:hover{
+  background: #aff;
+  padding-left: 3em;
+  margin-left: -3em;
+}
+
+
+
+
+
+
+
+
+
+
+                                          /* Illustration page*/
+
+#illustrations{
+	margin-top: 3em;
+	text-align: center;
+	/* border-bottom: 7px double #aff; */
+	padding: .5em;
+}
+
+
+.ill-img li{
+
+	list-style: none;
+	padding-left: 0;
+	overflow: hidden;
+}
+
+
+img{
+	max-width: 100%;
+	height: auto;
+}
+
+img{
+	margin: 1em 0 1em;
+}
+
+figcaption{
+  float:left;
+
+  margin-right: -1em;
+	margin-bottom: 5em;
+}
+
+
+
+.return{
+	text-align: center;
+	background: #dff;
+	margin: 2em;
+	padding: 1em;
+
+}
+
+
+
+
+
+
+
+
+
+
+                                         /* Concept art Page*/
+
+#concept{
+ text-align: center;
+ margin-left: 1em;
+ margin-top: 4.5em;
+ margin-bottom:
+}
+
+
+.concept-art li{
+ 	list-style: none;
+	padding-left: 0;
+	overflow: hidden;
+}
+
+
+.text{
+margin: 1em;
+}
+
+.title{
+margin:1em;
+}
+
+
+
+
+
+
+                                             /* Animation Page*/
+#ani-title{
+ text-align: center;
+ margin-top: 2em;
+ margin-bottom: 3em;
+}
+
+
+#demoreel{
+margin-top: 2em;
+margin-bottom: 6em;
+}
+
+
+
+.animation_container{
+margin-top: 2em;
+margin-bottom: 4.5em;
+display: inline-block;
+}
+
+.animation_des{
+float: right;
+}
+
+
+.animation_des{
+margin-top: -3em;
+margin-left: 1em;
+margin-bottom: 6em;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+                               /* Social Media at the bottom*/
+
+
+
+#socialmedia{
+margin-top: -6em;
+margin-left: 5em;
+}
+
+#socialmedia li{
+text-align: center;
+margin: 2em;
+max-width: 3em;
+display: inline-block;
+}
+
+
+
+
+
+
+
+                                                   /*Breakpoints*/
+
+
+@media (min-width: 60em){
+
+
+/*
+#monstertop{
+position: absolute;
+margin-top: -6em;
+margin-left: 9em;
+max-width: 40em;
+
+}
+
+	#monsterbottom{
+	position: absolute;
+	margin-top:-23em;
+	margin-left: 9em;
+	max-width: 40em;
+	}
+ */
+
+
+	.plants{
+	margin-top: -24em;
+	}
+
+	#socialmedia{
+		margin-left: 7em;
+	}
+
+
+
+	.columns img {
+		float: left;
+		margin-right: 3em;
+	}
+
+
+  figcaption{
+  	float:right;
+  	margin-top: 6em;
+  	margin-right: -1em;
+		margin-bottom: 4em;
+	}
+
+
+}
+
+}
+
+
+
+
+
+
+
+
+
