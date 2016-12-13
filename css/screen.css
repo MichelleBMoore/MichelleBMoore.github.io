@@ -77,21 +77,25 @@ a{
 }
 
 .group1{
-background: #abe;
+display: inline-block;
 padding: 1em;
 margin: 4em;
+margin-left: 6em;
 }
 
 .group2{
-background: #abe;
+display: inline-block;
 padding: 1em;
 margin: 4em;
+
 }
 
 
 li{
 line-height: 2.5em;
 }
+
+
 
 
 
