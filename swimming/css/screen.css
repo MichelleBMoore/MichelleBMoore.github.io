@@ -1,0 +1,263 @@
+body{
+background: #333;
+font-size: 50%;
+}
+
+@media (min-width: 60em) {
+  body {
+     font-size: 100%;
+  }
+}
+
+/* f i s h  b o w l */
+
+
+#fish-bowl{
+max-width:90%;
+position: relative;
+float: left;
+font-size: 900%;
+width:7em;
+height:5.5em;
+background:#0ac;
+
+  background: linear-gradient(10deg, rgb(0, 170, 204), rgb(235, 169, 216));
+border-radius: 50%;
+margin-left: .25em;
+}
+
+
+/* f i s h   1 */
+
+.fish-1{
+max-width:80%;
+position:relative;
+font-size: 40%;
+width:5em;
+height:4em;
+background:#9ff;
+border-radius: 50%;
+margin-left: 4.5em;
+margin-top: 3.5em;
+}
+
+.fish-1 .eye-1{
+position: absolute;
+top: 1em;
+left: 1em;
+width:1em;
+height:.5em;
+background: #000;
+border-radius: 50%;
+}
+
+
+.fish-1 .jaw-1{
+position: absolute;
+font-size: 40%;
+width:9em;
+height:5em;
+background:#0ff;
+margin-left: -3em;
+margin-top: 5em;
+}
+
+
+.fish-1 .fin-1{
+position: absolute;
+font-size: 30%;
+width: 0;
+height: 0;
+line-height: 0;
+border: 2em dashed transparent;
+border-top: 0;
+border-right: 4em solid #0cc;
+margin-top: 9em;
+margin-left: 6em;
+}
+
+.top-fin{
+position: absolute;
+font-size: 30%;
+width: 0;
+height: 0;
+line-height: 0;
+border: 2em dashed transparent;
+border-top: 0;
+border-bottom: 4em solid #0ff;
+margin-top: -3.5em;
+  margin-left: 6em;
+}
+
+.back-fin{
+position: absolute;
+top: 0;
+bottom: 0;
+right: -1em;
+width: 0;
+height: 0;
+line-height: 0;
+border: 1em dashed transparent;
+border-left: 0;
+border-right: 3em solid transparent;
+margin: auto;
+}
+
+#fish-1 .back-fin {
+ border-right-color: #0ff;
+}
+
+#fish-1 {
+ font-size: 40%;
+ position: absolute;
+ top: 1em;
+ left: 2em;
+ background:#0ff;
+ animation: move 5s infinite;
+}
+
+
+p{
+  color: #aff;
+  font-size: 100%;
+  line-height:3.2em;
+  margin-left: 1.6em;
+  margin-top: -.7em;
+  animation: fade 10s infinite;
+}
+
+
+.bubbles{
+  position: absolute;
+  width:.3em;
+  height: .3em;
+  background: #fff;
+  border-radius: 50%;
+  top: 5em;
+  left:4em;
+  animation: moveup 10s infinite, fade 10s infinite;
+}
+
+.bubbles1{
+  position: absolute;
+  width:.5em;
+  height: .5em;
+  background: #fff;
+  border-radius: 50%;
+  top: 5em;
+  left:3em;
+  animation: moveup 11s infinite, fade 9s infinite;
+}
+
+.bubbles2{
+  position: absolute;
+  width:.1em;
+  height: .1em;
+  background: #fff;
+  border-radius: 50%;
+  top: 2em;
+  left:2em;
+  animation: moveup 5s infinite, fade 7s infinite;
+}
+
+.bubbles3{
+  position: absolute;
+  width:.1em;
+  height: .1em;
+  background: #fff;
+  border-radius: 50%;
+  top:6em;
+  left:6em;
+  animation: moveup 5s infinite, fade 9s infinite;
+}
+
+
+@keyframes move {
+
+
+
+  0% {
+     top:1;
+     left: 2;
+  }
+
+  25%{
+     top:-1em;
+     left:2em;
+     transform: rotate(0deg);
+  }
+
+  50%{
+   top:1em;
+   left: 0em;
+   transform: rotate(360deg)
+
+    }
+
+  75%{
+   top:-1em;
+   right:0;
+   transform: rotate(0deg)
+    }
+
+
+
+  100%{
+  top:1;
+  left:2em;
+  transform: rotate(0deg)
+  }
+
+
+}
+
+
+
+@keyframes fade{
+
+ 0%   {
+   opacity:0;
+  }
+
+
+  50%  {
+    opacity:1;
+  }
+
+
+  100% {
+     opacity:0;
+  }
+
+}
+
+@keyframes moveup{
+
+  0%{
+    top:5;
+    left:4;
+  }
+
+
+  100%{
+    top:0;
+  }
+}
+
+
+@media{
+
+  #fish{
+    font-size: 60%;
+  }
+
+}
+
+
+
+
+
+
+
+
+
